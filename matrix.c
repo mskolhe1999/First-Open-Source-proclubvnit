@@ -11,7 +11,7 @@
     What if the same header file is included twice?
     Do reply your answers by commenting on our post @ proclub.codeingzone.in or drop us a mail at proclubvnit@gmail.com
 */
-//MAKE CHANGES
+//MAKE CHANGES HERE
 #define ADDITION 1
 #define SUBTRACTION 2
 #define MULTIPLICATION 3
@@ -54,11 +54,13 @@ void MultMatrices()
    else
    {int i,j,k;
     int d[r1][c2];
+    break;
      for(i=0;i<r1;i++)
      {for(j=0;j<c2;j++)
         { d[i][j]=0;
          for(k=0;k<c1;k++)
          {d[i][j]+=a[i][k]*b[k][j];
+          break;
          }
         } 
      }
